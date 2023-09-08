@@ -20,8 +20,6 @@ body{
 }
 h1 {
    text-align: start;
-   text-decoration: underline;
-   color: green;
 }
 .info{
     display: flex;

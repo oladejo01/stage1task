@@ -11,40 +11,22 @@
   <div class="container">
 
     <head>
-        <h1 class="title">PERSONAL DATA</h1>
+        <h1 data-testid="slackUserName">OLADEJO MARIAM OPEYEMI</h1>
     </head>
     
     <div class="info">
 
-        <div>
-            <label for="">Slack Display Picture: </label>
             <img src="./image/mypix.jpg" alt="Oladejo Mariam Opeyemi" data-testid="slackDisplayImage" required>
-        </div>
 
-        <div>
-            <label for="">Slack Name: </label>
-            <input type="text" required data-testid="slackUserName" value="Oladejo Mariam Opeyemi">
-        </div>
+            <div id="day" data-testid="currentDayOfTheWeek"> </div>
 
-        <div>
-            <label for=""> Current Day of the Week: </label>
-            <input  type="text" name="day" id="day" data-testid="currentDayOfTheWeek">
-        </div>
+            <div data-testid="currentUTCTime" id="time"> </div>
 
-        <div>
-            <label for="">Current UTC time: </label>
-            <input type="text" name="time" id="time">
-        </div>
+            <div data-testid="myTrack" id="track" > Frontend </div>
 
-        <div>
-            <label for="">Track: </label>
-            <input type="text" name="track" id="track" value="Frontend">
-        </div>
+        
+            <a href="https://github.com/oladejo01/stage1task"  data-testid="githubURL"> GitHub Repository</a>
 
-        <div>
-            <label for="">GitHub URL:</label>
-            <a href="https://github.com/oladejo01/stage1task"  data-testid="githubURL"> Click here to view GitHub URL</a>
-        </div>
 
     </div>
 
